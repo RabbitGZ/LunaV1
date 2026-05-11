@@ -27,7 +27,7 @@ async def on_message(message):
         return
 
     response = client_ai.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": message.content}
