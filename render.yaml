@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: discord-bot
+    name: LunaV1
     env: python
     runtime: python3.10.13
     buildCommand: pip install -r requirements.txt
